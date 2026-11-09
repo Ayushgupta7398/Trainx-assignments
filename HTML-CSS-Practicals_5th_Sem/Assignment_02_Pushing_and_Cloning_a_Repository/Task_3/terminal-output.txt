@@ -1,0 +1,10 @@
+Commands and actual terminal output
+
+> cd ..
+> git clone html-remote html-copy
+Cloning into 'html-copy'...
+done.
+> cd html-copy
+> git log --oneline
+b514564 Add next meeting heading
+ade82a4 Add home page

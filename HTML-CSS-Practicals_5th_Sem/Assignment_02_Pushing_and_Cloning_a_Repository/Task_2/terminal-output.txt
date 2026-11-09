@@ -1,0 +1,7 @@
+Commands and actual terminal output (run inside html-lab)
+
+> git push origin main
+To ../html-remote
+ * [new branch]      main -> main
+> git --git-dir=../html-remote symbolic-ref HEAD refs/heads/main
+(Set the bare repository default branch so the subsequent clone checks out main.)

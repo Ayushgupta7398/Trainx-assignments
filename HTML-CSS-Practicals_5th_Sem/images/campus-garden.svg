@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title description">
+  <title id="title">Campus garden</title>
+  <desc id="description">A sunny campus garden with trees, flowers, and a walking path.</desc>
+  <rect width="600" height="400" fill="#d9f0ff"/>
+  <circle cx="500" cy="82" r="44" fill="#ffd166"/>
+  <path d="M0 245 Q140 190 290 245 T600 230 V400 H0Z" fill="#75b86b"/>
+  <path d="M220 400 Q282 310 300 225 Q330 315 392 400Z" fill="#ead7ad"/>
+  <g fill="#347a50">
+    <path d="M70 240V135h16v105z"/><circle cx="78" cy="125" r="55"/>
+    <path d="M475 248V145h16v103z"/><circle cx="483" cy="133" r="58"/>
+    <path d="M145 248V177h12v71z"/><circle cx="151" cy="170" r="38"/>
+  </g>
+  <g fill="#e63946">
+    <circle cx="95" cy="285" r="7"/><circle cx="125" cy="308" r="7"/><circle cx="448" cy="290" r="7"/>
+  </g>
+  <g fill="#f4a261">
+    <circle cx="112" cy="320" r="6"/><circle cx="425" cy="320" r="6"/><circle cx="462" cy="275" r="6"/>
+  </g>
+</svg>

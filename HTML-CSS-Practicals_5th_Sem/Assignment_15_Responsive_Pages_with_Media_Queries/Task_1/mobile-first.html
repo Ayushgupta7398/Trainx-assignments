@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mobile-First Cards</title>
+  <style>
+    .cards { display: grid; grid-template-columns: 1fr; gap: 16px; }
+    .card { padding: 20px; border-radius: 8px; background: #eaf6f6; }
+    @media (min-width: 600px) {
+      .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Responsive Cards</h1>
+  <div class="cards">
+    <article class="card"><h2>First Card</h2><p>Cards stack on small screens.</p></article>
+    <article class="card"><h2>Second Card</h2><p>Cards sit side by side on wider screens.</p></article>
+  </div>
+</body>
+</html>

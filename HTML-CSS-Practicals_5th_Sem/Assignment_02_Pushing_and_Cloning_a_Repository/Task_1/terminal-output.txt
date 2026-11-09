@@ -1,0 +1,8 @@
+Commands and actual terminal output (run inside html-lab)
+
+> git init --bare ../html-remote
+Initialized empty Git repository in E:/Practice/Trainx-Assignments/HTML-CSS-Practicals_5th_Sem/Assignment_01_Starting_a_Git_Repository/html-remote/
+> git remote add origin ../html-remote
+> git remote -v
+origin	../html-remote (fetch)
+origin	../html-remote (push)

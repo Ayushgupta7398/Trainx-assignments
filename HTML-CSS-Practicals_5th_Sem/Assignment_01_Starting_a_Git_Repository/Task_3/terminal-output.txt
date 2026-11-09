@@ -1,0 +1,9 @@
+Commands and actual terminal output
+
+> git add index.html
+> git commit -m "Add next meeting heading"
+[main b514564] Add next meeting heading
+ 1 file changed, 1 insertion(+)
+> git log --oneline
+b514564 Add next meeting heading
+ade82a4 Add home page

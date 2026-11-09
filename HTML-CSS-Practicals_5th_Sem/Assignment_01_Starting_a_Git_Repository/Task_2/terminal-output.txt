@@ -1,0 +1,17 @@
+Commands and actual terminal output
+
+> git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+> git add index.html
+> git commit -m "Add home page"
+[main (root-commit) ade82a4] Add home page
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html

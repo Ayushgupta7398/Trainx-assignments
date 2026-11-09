@@ -1,0 +1,11 @@
+Commands and actual terminal output (configured email redacted before publication)
+
+> cd html-lab
+> git init
+Initialized empty Git repository in E:/Practice/Trainx-Assignments/HTML-CSS-Practicals_5th_Sem/Assignment_01_Starting_a_Git_Repository/html-lab/.git/
+> git config --local user.name "Ayush Gupta"
+> git config --local user.email "[redacted]"
+> git config user.name
+Ayush Gupta
+> git config user.email
+[configured email redacted before publication]

@@ -1,0 +1,41 @@
+Assignment 11: Other Kinds of Joins
+
+Task 1
+SELECT t.team_name, p.player_name FROM team AS t LEFT JOIN player AS p ON t.team_id = p.team_id ORDER BY t.team_name, p.player_name;
++-----------+-------------+
+| team_name | player_name |
++-----------+-------------+
+| Eagles    | Asha        |
+| Eagles    | Meera       |
+| Lions     | NULL        |
+| Tigers    | Arjun       |
++-----------+-------------+
+4 rows in set
+
+Task 2
+SELECT t.team_name, p.player_name FROM team AS t CROSS JOIN player AS p ORDER BY t.team_name, p.player_name;
++-----------+-------------+
+| team_name | player_name |
++-----------+-------------+
+| Eagles    | Arjun       |
+| Eagles    | Asha        |
+| Eagles    | Meera       |
+| Lions     | Arjun       |
+| Lions     | Asha        |
+| Lions     | Meera       |
+| Tigers    | Arjun       |
+| Tigers    | Asha        |
+| Tigers    | Meera       |
++-----------+-------------+
+9 rows in set
+
+Task 3
+SELECT player_name, team_name FROM player NATURAL JOIN team ORDER BY player_name;
++-------------+-----------+
+| player_name | team_name |
++-------------+-----------+
+| Arjun       | Tigers    |
+| Asha        | Eagles    |
+| Meera       | Eagles    |
++-------------+-----------+
+3 rows in set

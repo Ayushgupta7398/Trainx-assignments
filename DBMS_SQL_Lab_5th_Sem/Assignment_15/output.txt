@@ -1,0 +1,29 @@
+Assignment 15: Indexes and Adding a Row
+
+Task 1
+CREATE INDEX idx_city ON customer (city);
+Query OK, 0 rows affected
+
+Task 2
+SELECT name FROM customer WHERE city = 'Delhi' ORDER BY name;
++--------+
+| name   |
++--------+
+| Asha   |
+| Deepak |
++--------+
+2 rows in set
+
+Task 3
+INSERT INTO customer (customer_id, name, city) VALUES (5, 'Arjun', 'Pune');
+SELECT customer_id, name, city FROM customer ORDER BY customer_id;
++-------------+--------+--------+
+| customer_id | name   | city   |
++-------------+--------+--------+
+| 1           | Kiran  | Kochi  |
+| 2           | Deepak | Delhi  |
+| 3           | Lata   | Mumbai |
+| 4           | Asha   | Delhi  |
+| 5           | Arjun  | Pune   |
++-------------+--------+--------+
+5 rows in set

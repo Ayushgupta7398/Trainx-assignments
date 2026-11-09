@@ -1,0 +1,35 @@
+Assignment 10: Joining Two Tables with INNER JOIN
+
+Task 1
+SELECT e.emp_name, d.dept_name FROM employee AS e INNER JOIN department AS d ON e.dept_id = d.dept_id ORDER BY e.emp_name;
++----------+-----------+
+| emp_name | dept_name |
++----------+-----------+
+| Anita    | Accounts  |
+| Deepak   | Accounts  |
+| Lata     | Sales     |
+| Pooja    | Sales     |
++----------+-----------+
+4 rows in set
+
+Task 2
+SELECT e.emp_name FROM employee AS e INNER JOIN department AS d ON e.dept_id = d.dept_id WHERE d.dept_name = 'Sales' ORDER BY e.emp_name;
++----------+
+| emp_name |
++----------+
+| Lata     |
+| Pooja    |
++----------+
+2 rows in set
+
+Task 3
+SELECT e.emp_name, d.dept_name, e.salary FROM employee AS e INNER JOIN department AS d ON e.dept_id = d.dept_id ORDER BY e.salary DESC;
++----------+-----------+--------+
+| emp_name | dept_name | salary |
++----------+-----------+--------+
+| Anita    | Accounts  | 90000  |
+| Deepak   | Accounts  | 60000  |
+| Lata     | Sales     | 55000  |
+| Pooja    | Sales     | 42000  |
++----------+-----------+--------+
+4 rows in set

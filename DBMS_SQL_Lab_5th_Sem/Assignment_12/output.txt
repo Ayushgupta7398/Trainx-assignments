@@ -1,0 +1,30 @@
+Assignment 12: Using a Subquery
+
+Task 1
+SELECT student_name FROM club_a WHERE student_name IN (SELECT student_name FROM club_b);
++--------------+
+| student_name |
++--------------+
+| Neha         |
++--------------+
+1 row in set
+
+Task 2
+SELECT COUNT(*) AS members FROM club_b;
++---------+
+| members |
++---------+
+| 3       |
++---------+
+1 row in set
+
+Task 3
+SELECT student_name FROM club_a ORDER BY student_name;
++--------------+
+| student_name |
++--------------+
+| Asha         |
+| Neha         |
+| Rohan        |
++--------------+
+3 rows in set

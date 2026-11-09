@@ -1,0 +1,33 @@
+Assignment 3: Selecting Columns and Rows with WHERE
+
+Task 1
+SELECT name, marks FROM student;
++--------+-------+
+| name   | marks |
++--------+-------+
+| Asha   | 78    |
+| Rohan  | 64    |
+| Neha   | 88    |
+| Deepak | 52    |
++--------+-------+
+4 rows in set
+
+Task 2
+SELECT roll_no, name, marks FROM student WHERE marks > 60;
++---------+-------+-------+
+| roll_no | name  | marks |
++---------+-------+-------+
+| 101     | Asha  | 78    |
+| 102     | Rohan | 64    |
+| 103     | Neha  | 88    |
++---------+-------+-------+
+3 rows in set
+
+Task 3
+SELECT name FROM student WHERE roll_no = 103;
++------+
+| name |
++------+
+| Neha |
++------+
+1 row in set

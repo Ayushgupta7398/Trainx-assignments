@@ -1,0 +1,20 @@
+Assignment 1: Creating a Table and Adding Rows
+
+Task 1
+CREATE TABLE student (roll_no INT, name VARCHAR(30), marks INT);
+Query OK, 0 rows affected
+
+Task 2
+INSERT INTO student (roll_no, name, marks) VALUES (101, 'Asha', 78), (102, 'Rohan', 64), (103, 'Neha', 88);
+Query OK, 3 rows affected
+
+Task 3
+SELECT roll_no, name, marks FROM student;
++---------+-------+-------+
+| roll_no | name  | marks |
++---------+-------+-------+
+| 101     | Asha  | 78    |
+| 102     | Rohan | 64    |
+| 103     | Neha  | 88    |
++---------+-------+-------+
+3 rows in set

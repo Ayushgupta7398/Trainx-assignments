@@ -1,0 +1,29 @@
+Assignment 5: Pattern Matching with LIKE
+
+Task 1
+SELECT title FROM book WHERE title LIKE 'Data%';
++----------------------+
+| title                |
++----------------------+
+| Database Systems     |
+| Data Structures in C |
++----------------------+
+2 rows in set
+
+Task 2
+SELECT title FROM book WHERE title LIKE '%C';
++----------------------+
+| title                |
++----------------------+
+| Data Structures in C |
++----------------------+
+1 row in set
+
+Task 3
+SELECT title FROM book WHERE title LIKE '_h%';
++---------------+
+| title         |
++---------------+
+| Short Stories |
++---------------+
+1 row in set
